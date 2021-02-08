@@ -20,16 +20,15 @@ public class Principal {
 		c1.acelerar();
 		c1.acelerar();
 		c1.acelerar();
+		
 		c1.frear();
 		
 		c2.acelerar();
 		c2.acelerar();
-		
+				
 		c1.imprimir();
 		c2.imprimir();
 		System.out.println("Imprimindo c3");
 		c3.imprimir();
-		
 	}
-
 }

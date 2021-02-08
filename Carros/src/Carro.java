@@ -1,21 +1,24 @@
 
 public class Carro {
+
 	int potencia;
 	int velocidade;
 	String nome;
+	String getVelocidade;
 	
-	void acelerar() {
+	void acelerar(){
 		velocidade += potencia;
 	}
-	void frear() {
+	
+	void frear(){
 		velocidade = velocidade / 2;
 	}
 	
-	int getVelocidade() {
+	int getVelocidade(){
 		return velocidade;
 	}
 	
-	void imprimir() {
-		System.out.println("O carro "+nome+" est· a velocidade de "+getVelocidade()+" km/h");
+	void imprimir(){
+		System.out.println("O carro "+nome+ " est√° a velocidade de " +velocidade+ "Km/h");
 	}
 }
